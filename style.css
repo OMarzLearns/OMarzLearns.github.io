@@ -1,33 +1,33 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-html {
-  height: 100vh;
-  background: linear-gradient(black, #0b0d15, #121317);
+  font-family: "Montserrat", serif;
 }
 
 body {
-  min-height: 20vh;
-  font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-  align-content: center;
-  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('bg.png');
 }
 
-section {
-  color: white;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 50px 20vw;
-}
 
 .card {
+  width: 400px;
+  height: 400px;
+  background-color: #252926;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  border-radius: 50px;
+  gap: 50px;
+}
+
+
+/* .card {
   margin: 0 auto;
   padding: 1em;
   width: fit-content;
@@ -36,7 +36,6 @@ section {
   border-radius: 10px;
   position: relative;
 }
-
 
 @property --angle{
   syntax: "<angle>";
@@ -71,4 +70,4 @@ section {
   to{
     --angle: 360deg;
   }
-}
+} */
