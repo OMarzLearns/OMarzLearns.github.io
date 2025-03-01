@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", serif;
@@ -29,7 +29,7 @@ body {
 }
 
 .game {
-  background-image: url('bg.png');
+  /* background-image: url('bg.png'); */
    transition: opacity 0.5s ease-in-out; /* Smooth fade effect */
 }
 
